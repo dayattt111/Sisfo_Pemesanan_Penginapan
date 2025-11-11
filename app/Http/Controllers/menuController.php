@@ -18,6 +18,22 @@ class menuController extends Controller
     }
 
     // Admin Role
+    public function adminDashboard(){
+        return view('admin/index');
+    }
+    public function adminDashboard(){
+        return view('admin/dataPenginapan');
+    }
+    public function adminDashboard(){
+        return view('admin/index');
+    }
+    public function adminDashboard(){
+        return view('admin/index');
+    }
+    public function adminDashboard(){
+        return view('admin/index');
+    }
+
 
 
     // Users Role

@@ -11,7 +11,8 @@
     
     <h3>Sistem Informasi Pemesanan Penginapan</h3>
 
-    <form action="Users/dashboard" method="POST">
+    <form action="Admin/dashboard" method="POST">
+    {{-- <form action="Users/dashboard" method="POST"> --}}
         @csrf
         <table style="margin-left: auto; margin-right: auto; border-spacing: 0 10px;">
             <tr>

@@ -11,7 +11,9 @@
     
     <h3>Daftar akun baru</h3>
 
-    <form action="/Admin/dashboard" method="POST">
+    <form action="Admin/dashboard" method="POST">
+    {{-- <form action="Users/dashboard" method="POST"> --}}
+        @csrf
         <table style="margin-left: auto; margin-right: auto; border-spacing: 0 10px;">
             <tr>
                 <td style="text-align: left; padding-right: 15px;">
