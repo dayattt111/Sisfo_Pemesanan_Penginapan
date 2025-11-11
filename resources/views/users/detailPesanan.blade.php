@@ -29,12 +29,6 @@
     </ul>
 
     <p><b>Harga : Rp. 350.000/Malam</b></p>
-    <form action="/Users/pemesanan" method="post">
-        @csrf
-        <div style="margin-top: 20px;">
-            <button type="submit">Pesan Sekarang</button>
-        </div>
-    </form>
     <div style="margin-top: 10px;">
         <a href="/Users/dashboard">Kembali ke Daftar penginapan</a>
     </div>

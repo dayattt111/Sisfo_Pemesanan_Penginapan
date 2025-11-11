@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .tombol-link {
+        display: inline-block; /* agar bisa mengatur padding, margin, dll. */
+        padding: 5px 15px;
+        background-color: #ffffff; /* warna latar */
+        border: black 1px solid;
+        color: rgb(0, 0, 0); /* warna teks */
+        text-decoration: none; /* hilangkan garis bawah */
+        border-radius: 5px; /* sudut membulat */
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
     {{-- dashboard.blade.php --}}
@@ -27,19 +39,17 @@
             <tr>
                 <td>Penginapan Sentosa</td>
                 <td style="text-align: right;">
-                    <button type="button">Lihat detail</button>
+                    <a href="detail" class="tombol-link">Detail</a>
                 </td>
             </tr>
         </table>
     </div>
-
     <div style="margin-top: 30px;">
         <h4>Status Pemesanan</h4>
         <div style="border: 1px solid #000; padding: 15px; text-align: center;">
             Belum ada pesanan
         </div>
     </div>
-
 </div>
 </body>
 </html>
