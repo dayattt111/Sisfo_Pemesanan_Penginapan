@@ -25,7 +25,7 @@ Route::post('Users/pemesanan', [menuController::class, 'kirimPesanan']);
 Route::get('Users/detailPesanan', [menuController::class, 'detailPesanan']);
 Route::get('Users/Pembayaran', [menuController::class, 'pembayaran']);
 Route::post('/Users/Pembayaran', [menuController::class, 'kirimPembayaran']);
-Route::post('/Users/ulasan', [menuController::class, 'ulasan']);
+Route::get('/Users/ulasan', [menuController::class, 'ulasan']);
 Route::post('/Users/status', [menuController::class, 'status']);
 Route::get('/Users/status', [menuController::class, 'status']);
 Route::get('/Users/cancel', [menuController::class, 'cancel']);
