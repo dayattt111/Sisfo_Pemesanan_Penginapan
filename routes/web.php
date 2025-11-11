@@ -10,6 +10,7 @@ Route::get('/Register', [menuController::class, 'register']);
 
 //Admins
 Route::post('Admin/dashboard', [menuController::class, 'adminDashboard']);
+Route::get('/Admin/dashboard', [menuController::class, 'adminDashboard']);
 Route::get('Admin/kelolaPenginapan', [menuController::class, 'kelolaPenginapan']);
 Route::get('Admin/kelolaPembayaran', [menuController::class, 'kelolaPembayaran']);
 Route::get('Admin/kelolaPengguna', [menuController::class, 'kelolaPengguna']);

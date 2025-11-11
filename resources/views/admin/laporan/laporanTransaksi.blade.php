@@ -20,27 +20,28 @@
         </header>
 
         <div class="flex flex-1 overflow-hidden">
-            
             <aside class="w-64 bg-gray-800 text-white p-6 shadow-lg">
                 <nav class="space-y-2">
-                    <a href="#" class="block px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                    <a href="/Admin/dashboard" class="block px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
                         Dashboard
                     </a>
-                    <a href="#" class="block px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                    <a href="/Admin/kelolaPenginapan" class="block px-4 py-2 rounded-md text-sm font-medium bg-gray-700">
                         Kelola penginapan
                     </a>
-                    <a href="#" class="block px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                    <a href="/Admin/kelolaPembayaran" class="block px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
                         Kelola Pembayaran
                     </a>
-                    <a href="#" class="block px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
+                    <a href="/Admin/kelolaPengguna" class="block px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
                         Kelola Pengguna
                     </a>
-                    <a href="#" class="block px-4 py-2 rounded-md text-sm font-medium bg-gray-700 text-white">
+                    <a href="/Admin/laporan" class="block px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">
                         Laporan Transaksi
                     </a>
+                    {{-- <button class="bg-red-500 text-white px-4 py-2 rounded-md shadow hover:bg-red-600 transition-colors duration-200">
+                        Logout
+                    </button> --}}
                 </nav>
             </aside>
-
             <main class="flex-1 p-6 overflow-auto">
                 
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Laporan Transaksi</h2>
@@ -104,7 +105,6 @@
                             </tbody>
                     </table>
                 </div>
-
                 <div class="mt-6 flex justify-end space-x-3">
                     <button class="bg-gray-600 text-white px-4 py-2 rounded-md shadow hover:bg-gray-700 transition-colors duration-200">
                         Cetak Laporan
@@ -113,7 +113,6 @@
                         Unduh PDF
                     </button>
                 </div>
-
             </main>
         </div>
     </div>

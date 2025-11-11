@@ -21,17 +21,17 @@ class menuController extends Controller
     public function adminDashboard(){
         return view('admin/index');
     }
-    public function adminDashboard(){
-        return view('admin/dataPenginapan');
+    public function kelolaPenginapan(){
+        return view('admin/penginapan/dataPenginapan');
     }
-    public function adminDashboard(){
-        return view('admin/index');
+    public function kelolaPembayaran(){
+        return view('admin/pembayaran/dataPembayaran');
     }
-    public function adminDashboard(){
-        return view('admin/index');
+    public function kelolaPengguna(){
+        return view('admin/pengguna/dataUser');
     }
-    public function adminDashboard(){
-        return view('admin/index');
+    public function laporan(){
+        return view('admin/laporan/laporanTransaksi');
     }
 
 
